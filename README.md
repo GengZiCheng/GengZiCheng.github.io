@@ -1,0 +1,2 @@
+# GengZiCheng.github.io
+hexo
