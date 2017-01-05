@@ -1,2 +1,2 @@
 # GengZiCheng.github.io
-hexo
+My Website/Blog
