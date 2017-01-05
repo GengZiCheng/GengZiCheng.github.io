@@ -1,2 +1,1 @@
-# GengZiCheng.github.io
-My Website/Blog
+GengZiCheng's Website
