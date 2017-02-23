@@ -1,0 +1,136 @@
+<!--
+To my dear reviewer:
+Please take a look at here!!!!
+请务必到下面的链接看看!!!!
+http://discussions.youdaxue.com/t/bootstrap/33795?u=47302028
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- tell IE to use the best engine you got -->
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <!--this is for mobile user -->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>personal_portfolio-bootstrap</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+    <!-- first Bootstrap, then my own -->
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <div class="container">
+    <header class="row">
+      <div class="col-xs-12 col-md-6">
+        <!-- short the URL for better view -->
+        <img class="img-responsive myavatar" alt="my picture" src="img/myavatar.jpg">
+      </div>
+      <div class="col-xs-12 col-md-6 text-right text-down text-uppercase">
+        <h1 class="text-thin-big">Raymond</h1>
+        <h4>Front-end Developer</h4>
+      </div>
+    </header>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <hr class="hr-thick">
+      </div>
+    </div>
+
+    <section class="row" >
+      <div class="col-xs-12">
+        <figure>
+        <img class="img-responsive bigpic" alt="responsive html image" src="img/pic1.jpg">
+        <figcaption><p>Udacity taught me many useful techniques that can be applied to build a responsive web-page!</p></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <h2 class="text-gray text-indent text-uppercase">previous projects</h2>
+      </div>
+    </div>
+
+    <section class="row text-center">
+      <article class="col-xs-12 col-md-4">
+        <!-- img here has a modal that got 2 relevent attributes: data-toggle, data-target(id here should stay same as in modal down) -->
+        <img class="img-responsive" alt="picture of blog" src="img/img1.jpg" data-toggle="modal" data-target="#project1">
+        <h3 class="text-uppercase">&#8627;<a href="https://github.com/GengZiCheng/UdaCity-portfolio/tree/master/HTML/P0P1_HTML/p1%20quizes">blog-mockup</a></h3>
+
+      </article>
+      <article class="col-xs-12 col-md-4">
+        <img class="img-responsive" alt="picture of animal card" src="img/img2.jpg" data-toggle="modal" data-target="#project2">
+        <h3 class="text-uppercase">&#8627;<a href="https://github.com/GengZiCheng/UdaCity-portfolio/tree/master/HTML/P2_CSS/p2%20quizes/animal-trading-cards-master-zh">animal-card</a></h3>
+
+      </article>
+      <article class="col-xs-12 col-md-4">
+        <img class="img-responsive" alt="picture of HTML portfolio" src="img/img3.jpg" data-toggle="modal" data-target="#project3">
+        <h3 class="text-uppercase">&#8627;<a href="https://github.com/GengZiCheng/UdaCity-portfolio/tree/master/HTML/P3_HTMLCSS/p3%20quizes/mock3-portfolio-1">mock-portfolio</a></h3>
+
+      </article>
+    </section>
+  </div>
+
+  <!-- Modal -->
+  <!-- each modal has unique id,h4,img,and a img description -->
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel">Blog-Mockup</h4>
+              </div>
+              <div class="modal-body">
+                  <img class="img-responsive" src="img/img1.jpg">
+                  <p>This was my first project in this class. I learned a lot about HTML and CSS.
+                  </p>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel">Animal-Card</h4>
+              </div>
+              <div class="modal-body">
+                  <img class="img-responsive" src="img/img2.jpg">
+                  <p>I learned more about CSS in this project by using a online CSS tool.
+                  </p>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel">Mock-Portfolio</h4>
+              </div>
+              <div class="modal-body">
+                  <img class="img-responsive" src="img/img3.jpg">
+                  <p>This project is more about the framwork of a HTML page.
+                  </p>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+</body>
+</html>
