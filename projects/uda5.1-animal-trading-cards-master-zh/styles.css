@@ -1,0 +1,43 @@
+/* 添加 CSS */
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    
+    padding: 20px 50px;
+    width: 600px;
+    border:1px solid gray;
+    border-radius: 15px;
+    box-shadow: 10px 5px 20px gray;
+    font-family: arial;
+}
+
+.img {
+    width: 500px;
+    height: 400px;
+    border-radius: 15px;
+}
+
+.description {
+    width: 500px;
+    border: 1px solid gray;
+    padding: 0px 20px;
+    margin-top: 10px;
+}
+
+.favourfact {
+    font-style: italic;
+}
+
+.points{
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+
+span {
+    font-weight: bold;
+}
+
