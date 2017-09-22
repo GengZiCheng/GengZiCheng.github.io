@@ -1,0 +1,22 @@
+body { margin: 0; }
+#main { background: url(../imgs/v1.2/1v.jpg) no-repeat; margin: 0 auto; width: 960px; }
+
+header { position: relative; width: 100%; height: 120px;}
+#avatar { width: 120px; height: 120px; border-radius: 50px; position: absolute; top: 0; right: 380px;}
+h1 { margin: 10px 0 0 0; height: 80px; font-size: 60px;  line-height: 80px; }
+h1, em { font-family: 'Nothing You Could Do', cursive; position: absolute; top: 0; right: 6px; }
+em { height: 20px; line-height: 20px; font-weight: bold; top: 100px; right: 10px;}
+
+#nav { width: 100%; height: 50px;  background: url(../imgs/v1.2/navbg.png) 0 dimgray; text-align: center; position: relative;}
+#nav img { width: 50px; height: 50px; }
+#nav a { width: 33%; display: inline-block;}
+
+section { width: 100%; height: 500px; }
+section div { display: inline-block; position: relative;}
+#pages { width: 60%; height: 500px;}
+#parts { width: 40%; height: 500px;}
+section a img { width: 40px;  }
+
+footer { border-top: 6px double gray; }
+
+

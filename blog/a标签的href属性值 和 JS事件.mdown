@@ -1,0 +1,15 @@
+# a标签的href属性值 和 JS事件 #
+[1](https://segmentfault.com/q/1010000000339082)
+[2](https://segmentfault.com/q/1010000000404876)
+[3](https://segmentfault.com/q/1010000000355766)
+[4](https://segmentfault.com/q/1010000003700330)
+
+## <a>标签加 href 不跳转实际页面的方法:
+1. `<a href="#"></a>`
+2. `<a href="#nogo"></a>`
+3. `<a href="##"></a>`
+4. `<a href="###"></a>`
+5. `<a href="javascript:void(0)"></a>`
+6. `<a href="javascript:void(0);"></a>`
+7. `<a href="javascript:"></a>`
+8. `<a href="javascript:;"></a>`
